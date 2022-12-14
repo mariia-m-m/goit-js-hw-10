@@ -18,7 +18,10 @@ min-height: 100vh;
 
   overflow: hidden;
   background: url("../images/kisspng-world-map-vector-map-anniversary-of-the-coronation-5b47613228e799.3597367115314045941676.png"),#fafafa;
-  background-size: 100%;
+  /* background-size: 100%; */
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
  
 #search-box {
@@ -42,6 +45,7 @@ min-height: 100vh;
     border: 1px solid #bdbdbd;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+   
 }
 
 #search-box:focus{
